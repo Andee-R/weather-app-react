@@ -9,7 +9,9 @@ function App() {
           <a
             href="https://reactjs.org"
             target="_blank"
-            rel="noopener noreferrer"></a>
+            rel="noopener noreferrer">
+            React
+          </a>
         </footer>
       </header>
     </div>
