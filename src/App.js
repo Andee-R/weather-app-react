@@ -1,13 +1,15 @@
 import "./App.css";
 import SearchForm from "./SearchForm";
+import Weather from "./Weather";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div class="container">
         <h1>Weather App</h1>
         <SearchForm />
-        <div className="Portfolio-links">
+        <Weather />
+        <footer className="Portfolio-links">
           <p>
             Open sorced on{" "}
             <a
@@ -24,8 +26,8 @@ function App() {
               Netlify
             </a>
           </p>
-        </div>
-      </header>
+        </footer>
+      </div>
     </div>
   );
 }
