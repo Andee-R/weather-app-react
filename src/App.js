@@ -1,13 +1,10 @@
 import "./App.css";
-import SearchForm from "./SearchForm";
 import Weather from "./Weather";
 
 function App() {
   return (
     <div className="App">
       <div class="container">
-        <h1>Weather App</h1>
-        <SearchForm />
         <Weather />
         <footer className="Portfolio-links">
           <p>
@@ -25,6 +22,7 @@ function App() {
               rel="noopener noreferrer">
               Netlify
             </a>
+            .
           </p>
         </footer>
       </div>
