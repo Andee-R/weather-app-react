@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <div class="container">
-        <Weather />
+        <Weather defaultCity="Phoenix" />
         <footer className="Portfolio-links">
           <p>
             Open sorced on{" "}

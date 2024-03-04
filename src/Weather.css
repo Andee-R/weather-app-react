@@ -1,7 +1,7 @@
 .Weather {
+  color: #6b6b6b;
   border: 1px solid #f15387;
   border-radius: 5px;
-  color: #6b6b6b;
   padding: 16px;
 }
 .Weather form {
@@ -9,18 +9,18 @@
 }
 
 .Weather .search-button {
-  padding: 4px;
-  color: white;
+  background-color: #f15387;
   border: 1px solid #f15387;
   border-radius: 5px;
-  background-color: #f15387;
+  color: white;
+  padding: 4px;
 }
 
 .Weather h1 {
-  margin: 12px;
   color: #f15387;
   display: block;
   font-size: 48px;
+  margin: 15px;
 }
 
 .Weather li {
@@ -32,17 +32,16 @@
 
 .Weather .temperature {
   font-size: 52px;
-  line-height: 64px;
+  line-height: 52px;
 }
 
 .Weather img {
-  float: left;
-  margin-right: 10px;
   height: 64px;
+  float: left;
 }
 
 .Weather .units {
-  font-size: 20px;
+  font-size: 18px;
   position: relative;
   top: -26px;
 }
