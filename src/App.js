@@ -8,7 +8,7 @@ function App() {
         <Weather defaultCity="Phoenix" />
         <footer className="Portfolio-links">
           <p>
-            Open sorced on{" "}
+            Open sourced on{" "}
             <a
               href="https://github.com/Andee-R/weather-app-react"
               target="_blank"
