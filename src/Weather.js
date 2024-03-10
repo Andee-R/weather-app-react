@@ -20,12 +20,12 @@ export default function Weather(props) {
   }
   function search() {
     const apiKey = "c9b605ad7a94bt8873a8fdebe09251o1";
-    const apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=imperial`;
+    const apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
   }
   function handleSumbit(event) {
     event.preventDefault();
-    //alert(city);
+    search();
   }
   function handleCityChange(event) {
     setCity(event.target.value);
